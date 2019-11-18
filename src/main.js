@@ -5,14 +5,15 @@ import Router from 'vue-router'
 import Routers from './router'
 import store from './store/index'
 import App from './App'
-import FastClick from 'fastclick'
+import './config/rem'
+// import FastClick from 'fastclick'
 Vue.config.productionTip = false
 
-if ('addEventListener' in document) {
-	document.addEventListener('DOMContentLoaded', function () {
-		FastClick.attach(document.body)
-	}, false)
-}
+// if ('addEventListener' in document) {
+// 	document.addEventListener('DOMContentLoaded', function () {
+// 		FastClick.attach(document.body)
+// 	}, false)
+// }
 Vue.use(Router)
 
 const RouterConfig = {

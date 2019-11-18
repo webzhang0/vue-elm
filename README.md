@@ -26,4 +26,4 @@ npm test
 + src
     + components
 	   	+ header: 
-	   	+ config: rem.js
+	+ config: rem.js

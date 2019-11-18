@@ -2,3 +2,17 @@ html, body, div, span, a, p, h1, h2, h3, h4, h5, h6, i, b, textarea, button, inp
 	padding: 0;
 	margin: 0;
 }
+.clearfix {zoom: 1;}
+.clearfix:after {
+	content: '';
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.fl { float: left; }
+.fr { float: right; }
+.e-box {
+	box-sizing: border-box;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}

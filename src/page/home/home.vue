@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<head-top>
-			<div slot="logo" class="head_logo">ele.me</div>
+			<span slot="logo" class="head_logo">ele.me</span>
 		</head-top>
 	</div>
 </template>
