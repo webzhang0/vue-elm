@@ -42,5 +42,8 @@
 	.head_login {
 		@include sc(0.65rem, #fff);
 		line-height: $headerHeight;
+		.login_span {
+			color: #fff;
+		}
 	}
 </style>
